@@ -21,7 +21,7 @@ const slides = [
 	const arrowLeft = document.querySelector('.arrow_left');
 	const arrowRight = document.querySelector('.arrow_right');
   
-// Ajout des écouteurs d'événements pour les clics sur les flèches, pour naviguer entre les images du carrousel.
+// Ajout des écouteurs d'événements pour les clics sur les flèches pour naviguer entre les images du carrousel.
 	arrowLeft.addEventListener('click', () => {
 	  console.log('Flèche gauche cliquée !');
 	  showPreviousSlide()
